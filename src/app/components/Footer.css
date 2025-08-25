@@ -39,11 +39,11 @@ footer p {
 
 .footer-links a:hover {
     color: whitesmoke;
-    /* Indigo-600 */
+    
     transform: translateY(-2px);
 }
 
-/* Responsive */
+ 
 @media (min-width: 768px) {
     .footer-container {
         flex-direction: row;

@@ -11,21 +11,19 @@
   margin-bottom: 3rem;
   color: #b74b4b;
 }
-
-/* wrapper */
+ 
 .scroll-wrapper {
   overflow: hidden;
   white-space: nowrap;
   max-width: 100%;
 }
 
-/* moving content */
+ 
 .scroll-content {
   display: inline-block;
-  animation: scroll 8s linear infinite; /* speed adjust here */
-}
+  animation: scroll 8s linear infinite;  
 
-/* each item */
+ 
 .scroll-item {
   display: inline-block;
   background: white;
@@ -36,7 +34,7 @@
   font-weight: 600;
 }
 
-/* animation */
+ 
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -44,4 +42,5 @@
   to {
     transform: translateX(-50%);  
   }
+}
 }

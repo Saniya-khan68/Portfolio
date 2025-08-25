@@ -23,7 +23,7 @@ export default function Navbar() {
           Saniya Khan
         </Link>
 
-        {/* Desktop Links */}
+       
         <ul className="nav-links">
           {links.map((link) => (
             <li key={link.href}>
@@ -34,13 +34,13 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile Hamburger */}
+         
         <button className="hamburger" onClick={() => setOpen(!open)}>
           ☰
         </button>
       </nav>
 
-      {/* Mobile Menu */}
+     
       {open && (
         <div className="mobile-menu">
           {links.map((link) => (

@@ -26,7 +26,7 @@ export default function Skills() {
               {skill}
             </span>
           ))}
-          {/* Duplicate once more for smooth infinite scroll */}
+          
           {skills.map((skill, index) => (
             <span className="scroll-item" key={`dup-${index}`}>
               {skill}

@@ -19,7 +19,7 @@ export default function Hero() {
         setDisplayText(currentRole.substring(0, charIndex + 1));
         setCharIndex(charIndex + 1);
         if (charIndex + 1 === currentRole.length) {
-          // Pause for a moment before deleting
+           
           setTimeout(() => setDeleting(true), 800); // pause 800ms
         }
       } else {
@@ -40,7 +40,7 @@ export default function Hero() {
       <div className="hero-content">
         <h1 className="hero-intro">Hi, I’m Saniya Khan</h1>
         <h2 className="hero-role">{displayText}<span className="cursor"></span></h2>
-        {/* Removed repeating tagline */}
+         
         <div className="hero-buttons">
           <a href="#projects" className="hero-button">View Projects</a>
           <a href="#contact" className="hero-button outline">Contact Me</a>

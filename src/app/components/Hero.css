@@ -53,19 +53,19 @@
     justify-content: center;
 }
 
-/* Simple Button Design */
+ 
 .hero-button {
     padding: 0.75rem 2rem;
     font-weight: 600;
     text-decoration: none;
-    border-radius: 12px; /* Slightly rounded */
-    background-color: #1f2937; /* Dark button */
+    border-radius: 12px;  
+    background-color: #1f2937; 
     color: white;
     transition: all 0.3s ease;
 }
 
 .hero-button:hover {
-    background-color: #374151; /* Slightly lighter on hover */
+    background-color: #374151;  
     transform: translateY(-2px);
 }
 
@@ -81,7 +81,7 @@
     transform: translateY(-2px);
 }
 
-/* Responsive */
+ 
 @media (max-width: 768px) {
     .hero-intro { font-size: 2.25rem; }
     .hero-role { font-size: 1.5rem; }

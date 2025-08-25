@@ -20,7 +20,7 @@ export default function Contact() {
     e.preventDefault();
     setSubmitted(true);
     setFormData({ name: "", email: "", message: "" });
-    setTimeout(() => setSubmitted(false), 4000); // auto hide after 4s
+    setTimeout(() => setSubmitted(false), 4000);  
   };
 
   return (

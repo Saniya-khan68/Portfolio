@@ -1,10 +1,10 @@
- /* Navbar container */
+ 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 50;
-  background-color: #000000; /* Black background */
+  background-color: #000000;  
   backdrop-filter: blur(12px);
   border-bottom: 1px solid #1a1a1a;
 }
@@ -18,9 +18,9 @@
   justify-content: space-between;
 }
 
-/* Gradient text (Logo + Links) */
  
-/* Logo */
+ 
+ 
 .logo {
   font-weight: 800;
   font-size: 28px;
@@ -29,7 +29,7 @@
   color: #b74b4b;
 }
 
-/* Desktop links */
+ 
 .nav-links {
   display: none;
   list-style: none;
@@ -48,7 +48,7 @@
   /* color:rgb(248, 239, 239); */
 }
 
-/* Hamburger button */
+ 
 .hamburger {
   display: inline-flex;
   padding: 0.5rem 0.75rem;
@@ -60,13 +60,13 @@
   font-size: 1.2rem;
 }
 
-/* Mobile menu */
+ 
 .mobile-menu {
   display: flex;
   flex-direction: column;
   padding: 0.75rem 1rem;
   border-top: 1px solid #1a1a1a;
-  background-color: #000000; /* dark background */
+  background-color: #000000;  
 }
 
 .mobile-menu a {

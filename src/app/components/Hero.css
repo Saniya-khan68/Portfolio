@@ -1,0 +1,89 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 0 1rem;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-intro {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #b74b4b;
+}
+
+.hero-role {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.cursor {
+    display: inline-block;
+    background-color: white;
+    width: 2px;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
+
+.hero-tagline {
+    font-size: 1.1rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Simple Button Design */
+.hero-button {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px; /* Slightly rounded */
+    background-color: #1f2937; /* Dark button */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #374151; /* Slightly lighter on hover */
+    transform: translateY(-2px);
+}
+
+.hero-button.outline {
+    background: transparent;
+    border: 2px solid #b74b4b;
+    color: #b74b4b;
+}
+
+.hero-button.outline:hover {
+    background-color: #b74b4b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-intro { font-size: 2.25rem; }
+    .hero-role { font-size: 1.5rem; }
+    .hero-tagline { font-size: 1rem; }
+}

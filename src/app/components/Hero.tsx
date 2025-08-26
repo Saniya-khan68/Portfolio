@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./Hero.css";
 
 export default function Hero() {
-  const roles = ["Web Developer", "Front-end Developer", "Full Stack Developer"];
+  const roles = ["Web Developer", "Front-end Developer", "Full Stack Developer","Software developer"];
   const [displayText, setDisplayText] = useState("");
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -20,7 +20,7 @@ export default function Hero() {
         setCharIndex(charIndex + 1);
         if (charIndex + 1 === currentRole.length) {
            
-          setTimeout(() => setDeleting(true), 800); // pause 800ms
+          setTimeout(() => setDeleting(true), 800);  
         }
       } else {
         setDisplayText(currentRole.substring(0, charIndex - 1));
